@@ -97,27 +97,46 @@ const Service = () => {
             </div>
           </section>
           <section className='section-44'>
-              <div class="hero-section">
-        <h1>Get Your Luxury Experience Now</h1>
-        <div class="booking-form">
-            <label for="checkin">Check In:</label>
-            <input type="date" id="checkin" value="2023-12-24"/>        
-            <label for="checkout">Check Out:</label>
-            <input type="date" id="checkout" value="2023-12-28"/>
+           <div class="luxury-widget-container">
+        
+        <div class="luxury-text-section">
+            <h1 class="luxury-heading">Get Your Luxury<br/>Experience Now</h1>
+        </div>
+        
+        <div class="booking-panel">
             
-            <label for="room">Room:</label>
-            <select id="room">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select>
-            <label for="guest">Guest:</label>
-            <select id="guest">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-            </select>
-            <button class="check-availability">Check Availability</button>
+            <label class="booking-label">Check In</label>
+            <div class="booking-input-group">
+                <input class="booking-date-input" type="text" value="24 December 2023" />
+                <span class="booking-icon">📅</span>
+            </div>
+
+            <label class="booking-label">Check Out</label>
+            <div class="booking-input-group">
+                <input class="booking-date-input" type="text" value="28 December 2023" />
+                <span class="booking-icon">📅</span>
+            </div>
+
+            <div class="booking-row">
+                <div class="booking-select-wrapper">
+                    <label class="booking-label">Room</label>
+                    <select class="booking-select">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+                <div class="booking-select-wrapper">
+                    <label class="booking-label">Guest</label>
+                    <select class="booking-select">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                    </select>
+                </div>
+            </div>
+
+            <button class="booking-btn">Check Availability →</button>
         </div>
     </div>
           </section>
