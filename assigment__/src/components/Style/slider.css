@@ -1,13 +1,13 @@
 
-/* .slick-prev , .slick-next{ color: red; font-size: 20px; bottom: 10px; }  */
+
 
 
 .slider-container .slick-slide{
-   /* background-color: #575656; */
+  
     background-image: linear-gradient(
     to bottom, 
-    #333333, /* A dark gray at the top */
-    #666666  /* A medium-dark gray at the bottom */
+    #333333, 
+    #666666  
   );
     text-align: center;
 }

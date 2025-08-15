@@ -8,22 +8,22 @@ export default function EditableSection() {
   const [modalIsOpen, setModalIsOpen] = useState(false);
   const [newButtonText, setNewButtonText] = useState("");
   const [newButtonAction, setNewButtonAction] = useState("");
-  const [newButtonStyle, setNewButtonStyle] = useState("");
+ 
 
-  // Function to open the modal
+ 
   const openModal = () => {
     setModalIsOpen(true);
   };
 
-  // Function to close the modal
+ 
   const closeModal = () => {
     setModalIsOpen(false);
     setNewButtonText("");
     setNewButtonAction("");
-    setNewButtonStyle("");
+   
   };
 
-  // Function to add a new button
+  
   const addButton = () => {
     if (newButtonText && newButtonAction) {
       setButtons([
@@ -31,7 +31,7 @@ export default function EditableSection() {
         {
           label: newButtonText,
           action: newButtonAction,
-          style: newButtonStyle,
+         
         },
       ]);
       closeModal();

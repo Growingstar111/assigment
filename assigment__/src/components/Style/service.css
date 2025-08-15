@@ -3,11 +3,11 @@
 
     background-image: linear-gradient(
         to bottom, 
-        #333333, /* A dark gray at the top */
-        #666666  /* A medium-dark gray at the bottom */
+        #333333, 
+        #666666  
       );
         text-align: start;
-        /* margin-top: -30px; */
+       
         padding: 50px;
 }
 .service-main .part-11{

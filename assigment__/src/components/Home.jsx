@@ -84,12 +84,12 @@ const Home = () => {
         className="input-2"
           value={text}
           onChange={(e) => setText(e.target.value)}
-          // style={{ width: "100%", padding: "5px" }}
+         
         />
       ) : (
         <>
         <h3>{text}</h3>
-        {/* <h2>{text}</h2> */}
+       
         </>
       )}
           <div className="section2-main">
