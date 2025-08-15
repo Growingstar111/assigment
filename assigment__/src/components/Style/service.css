@@ -1,0 +1,51 @@
+
+.service-main {
+
+    background-image: linear-gradient(
+        to bottom, 
+        #333333, /* A dark gray at the top */
+        #666666  /* A medium-dark gray at the bottom */
+      );
+        text-align: start;
+        /* margin-top: -30px; */
+        padding: 50px;
+}
+.service-main .part-11{
+    padding: 0 50px;
+}
+.service-main .part-11 h3{
+    color: #bf9766;
+    font-size: 20px;
+    padding: 10px 0 0 0;
+    margin-top: 20px;
+}
+.service-main .part-11 h2{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 100;
+    /* padding: 0px 0px 0px 40px; */
+    margin: 15px 0;
+}
+
+.service-main  .part-11 .vertical-lineee {
+      text-align: start;
+        width: 2px; 
+        height: 100px; 
+        background-color: #ffffff; 
+     
+        margin: 30px 0;
+
+      
+    }
+.vertical-line2{
+      text-align: start;
+        width: 2px; 
+        height: 100px; 
+        background-color: #bf9766; 
+     
+        margin: 30px 0;
+
+      
+    }
+
+    

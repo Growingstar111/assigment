@@ -1,0 +1,372 @@
+.check{
+    background-color: #2d2c2c;
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+    /* margin-top: -30px; */
+    z-index: 999;
+    /* position: absolute; */
+    position: relative;
+    margin-top: -40px;
+}
+.check h5{
+    color: #fff;
+}
+.check .checkin{
+    width: 25%;
+    color: #bf9766;
+}
+.check .checkin input , select , .availibilty>button{
+    color: #bf9766;
+    background-color: #575656;
+    outline: none;
+     border: none;
+    padding: 6px;
+    width: 70%;
+}
+
+.check .rooms select{
+    width: 70%;
+}
+.check .availibilty{
+    display: flex;
+    align-items: end !important;
+    justify-content: center;
+}
+
+.section-2{
+    padding: 50px;
+}
+ .section-2 .vertical-line {
+      text-align: center;
+        width: 2px; /* Set a small width for the line thickness */
+        height: 100px; /* Define the height of the vertical line */
+        background-color: #bf9766; /* Set the color of the line */
+     
+        margin: 30px auto;
+       /* Add some margin for spacing (optional) */
+    }
+
+.section-2 .heading--{
+    text-align: center;
+} 
+.section-2 .heading-- .btnuu{
+background-color: #4CAF50;
+   
+    outline: none;
+    border: none;
+    padding: 6px 20px;
+    justify-content: center;
+    font-size: 20px;
+    color: #fff;
+    display: flex;
+    font-style: italic;
+    font-weight: 100;
+    border-radius: 6px;
+    margin: 0px 30px;
+} 
+.section-2 .heading-- .input-2{
+ width: 50%;
+ height: 40px;
+ padding:5px 20px;
+ background-color: #fff;
+ color: #2d2c2c;
+  font-size: 50px;
+   font-weight: 100;
+}
+.section-2 .heading-- h5{
+  color: #bf9766;
+  font-size: 20px;
+  font-weight: 200;
+}  
+.section-2 .heading-- h3{
+  font-weight: 100;
+  font-size: 50px;
+}
+ .card-background {
+            background: linear-gradient(to bottom, #888888 0%, #444444 100%);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+            position: relative;
+            width: 100%; 
+            max-width: 600px; 
+            height: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-end;
+            padding: 1.5rem;
+         margin:  20px;
+            overflow: hidden; 
+        }
+
+      
+        .section-2 .text-overlay {
+            color: white;
+            z-index: 10;
+        }
+       .section-2 .text-overlay h2 , p{
+
+            text-align: start   ;
+        }
+
+      
+     .section-2    .divider {
+            height: 1px;
+            background-color: rgba(255, 255, 255, 0.4);
+            width: 100%;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+        }
+ .section-2    .divider-2{
+    height: 2px;
+            background-color: rgba(255, 255, 255, 0.4);
+            width: 30%;
+            margin-top: 1rem;
+            margin-bottom: 1rem;
+ }
+        /* Icon row styles: Layout and spacing */
+      .section-2   .icon-row {
+            display: flex;
+            gap: 1.5rem; /* Space between icons */
+            justify-content: flex-end; /* Align icons to the right */
+            align-items: center;
+        }
+
+     
+
+     .section-2    .book-now-text {
+            color: #bf9766; 
+            font-weight: 600;
+            font-size: 1.1rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            background:none;
+            outline: none;
+            border: none;
+        }
+
+       
+.section2-main{
+    display: flex;
+}
+.section2-main2{
+    display: flex;
+}
+
+.section-3{
+    padding: 50px;
+}
+.section-3 .section3-heading{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.section-3 .heading-- h5{
+  color: #bf9766;
+  font-size: 20px;
+  font-weight: 200;
+}  
+.section-3 .heading--{
+
+    width: 40%;
+}
+.section-3 .heading-- h4{
+  font-weight: 100;
+  font-size: 50px;
+}
+.section-3 p{
+    color: #2d2c2c;
+    text-align: end;
+}
+.section-3 .para{
+    align-items: end;
+    width: 30%;
+    display: flex;
+}
+.section-3 .mainSection3{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    /* Set a height to see the grid in action */
+    /* gap: 10px; */
+    padding-top: 50px;
+
+}
+.section-3 .mainSection3 .blank{
+    /* width: 100%; */
+    background-color: #d9d9d9;
+}
+.section-3 .mainSection3 .fill{
+    background-color: #2d2c2c;
+    color: #fff;
+    /* width: 100% ; */
+    /* height: 200px; */
+    padding: 40px;
+}
+.section-3 .mainSection3 .fill .icon{
+    color: #bf9766;
+  
+ 
+}
+.section-3 .mainSection3 .fill .icon .dumble{
+
+    height: 60px;
+       /* width: 100%; */
+       text-align: left;
+       width: 90px;
+}
+.section-3 .mainSection3 .fill .fill-head{
+    font-size: 26px;
+    font-weight: 300;
+    padding-left: 20px;
+}
+.section-3 .mainSection3 .fill  p{
+    color: #fff;
+    text-align: left;
+    padding-left: 20px;
+    margin-top: 15px;
+}
+.section-3 .mainSection3 .fill .fill-buuton{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding-top: 40px;
+}
+.section-3 .mainSection3 .ggg{
+    display: flex;
+}
+
+.section-3 .mainSection3 .fill .fill-buuton .ico{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-left: 10px;
+    color: #bf9766;
+    font-weight: 100;
+}
+.section-3 .mainSection3 .fill .fill-buuton .btnuu{
+    align-items: center;
+    background-color: #2d2c2c;
+    border-left: none;
+    border-right: none;
+    outline: none;
+    border-top: 1px solid #bf9766;
+    border-bottom: 1px solid #bf9766;
+    padding: 10px;
+    justify-content: center;
+    font-size: 20px;
+    color: #bf9766;
+    display: flex;
+    font-style: italic;
+    font-weight: 100;
+}
+.section-4{
+    padding: 50px;
+}
+.section-4 .section4-main{
+    background-image: linear-gradient(
+    to bottom, 
+    #333333, /* A dark gray at the top */
+    #666666  /* A medium-dark gray at the bottom */
+  );
+    text-align: center;
+    padding: 50px;
+}
+.section-4 .section4-main h4{
+    color: #bf9766;
+    font-size: 20px;
+    padding: 10px 0 0 0;
+    margin-top: 20px;
+    font-weight: 100;
+}
+.section-4 .section4-main h3{
+    color: #fff;
+    font-size: 80px;
+    font-weight: 200;
+    padding: 0px 0px 0px 40px;
+    margin: 15px 0;
+    margin-bottom: 50px;
+}
+
+.section-4 .testmonial{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    margin-top: -50px;
+   
+}
+.section-4 .testmonial .blankii{
+  background-color: #d9d9d9;
+  width: 35%;
+}
+.section-4 .testmonial .stara{
+    background-color: #2d2c2c;
+    width: 65%;
+     padding: 40px;
+    
+}
+.section-4 .testmonial .stara .text--{
+    color: #fff;
+    margin-top: 12px;
+}
+.section-4 .testmonial .stara .iconn{
+    color: #bf9766;
+}
+.section-4 .testmonial .stara .name--{
+    text-align: end;
+    color: #bf9766;
+    font-size: 21px;
+}
+.section-4 .testmonial .stara .guest--{
+    text-align: end;
+}
+
+.section-5{
+    padding: 50px 0;
+}
+.section-5 .vertical-lineee{
+   text-align: center;
+        width: 2px; /* Set a small width for the line thickness */
+        height: 100px; /* Define the height of the vertical line */
+        background-color: #bf9766; /* Set the color of the line */ 
+        margin: 30px auto;
+}
+.section-5 h5{
+    color: #bf9766;
+    font-weight: 100;
+    font-size: 21px;
+    text-align: center;
+}
+.section-5 h3{
+  color: #2d2c2c;
+    font-weight: 100;
+    font-size: 60px;
+    text-align: center;
+}
+.section-5 .employee-- {
+    display: flex;
+    margin: 20px 0;
+}
+.section-5 .employee-- .first{
+    width: 100%;
+    margin: 10px;
+}
+.section-5 .employee-- .first .oneto{
+    background-color: #d9d9d9;
+    height: 200px;
+    width: 100%;
+}
+.section-5 .employee-- .first  p{
+    color: #2d2c2c;
+    font-size: 21px;
+    margin: 8px 0;
+}
+.section-5 .employee-- .first  h6{
+    color: #bf9766;
+    font-size: 16px;
+    font-weight: 100;
+    margin: 8px 0;
+
+}
